@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @RestController
 @RequestMapping("/rest/api/employee")
-public class RestControllerImpl extends RestBaseController implements RestEmployeeController{
+public class RestEmployeeControllerImpl extends RestBaseController implements RestEmployeeController{
 
     @Autowired
     private IEmployeeService employeeService;
